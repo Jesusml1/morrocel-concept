@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  @media(max-width: 768px){
+    flex-direction: column;
+    padding: 2rem 1.4rem;
+  }
 `
 
 export const Text = styled.div`
@@ -39,5 +43,9 @@ export const Text = styled.div`
       font-family: Montserrat, Arial, Helvetica, sans-serif;
       font-size: 1.2rem;
     }
+  }
+  @media(max-width: 768px){
+    max-width: 100%;
+    
   }
 `

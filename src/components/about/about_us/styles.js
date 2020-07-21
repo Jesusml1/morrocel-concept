@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
   width: 100%;
   padding: 2rem 5%;
 
+  @media(max-width: 768px){
+    padding: 1.4rem 2%;
+  }
 
 
 `
@@ -19,22 +22,39 @@ export const Container = styled.div`
     font-size: 34px;
   }
 
+  @media(max-width: 768px){
+    :nth-of-type(1){
+      padding: 0 1.4rem;
+    }
+  }
+
   :nth-of-type(2){
     padding: 0 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @media(max-width: 768px){
+      padding: 0 1.4rem;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 
   :nth-of-type(2){
     p{
       margin-right: 3rem;
+      @media(max-width: 768px){
+        margin: 2rem 0;
+      }
     }
   }
 
   :nth-of-type(3){
     padding: 0 6rem;
+    @media(max-width: 768px){
+      padding: 0 1.4rem;
+    }
   }
 
   img{
@@ -44,7 +64,12 @@ export const Container = styled.div`
       0 3.1px 5.3px rgba(0, 0, 0, 0.054),
       0 10.5px 17.9px rgba(0, 0, 0, 0.066),
       0 47px 80px rgba(0, 0, 0, 0.07);
-    align-self: flex-end;
+    align-self: center;
+    @media(max-width: 768px){
+      padding: 0;
+      margin: 0;
+      align-self: center;
+    }
   }
 
 `
@@ -55,6 +80,9 @@ export const Text = styled.div`
     color: var(--Cocoa-Bean);
     font-family: Righteous, Arial;
     font-size: 30px;
+    @media(max-width: 768px){
+      margin-top: 1rem;
+    }
   }
 
   p{

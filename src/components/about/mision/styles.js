@@ -19,6 +19,13 @@ export const Wrapper = styled.div`
       0 47px 80px rgba(0, 0, 0, 0.07);
     
   }
+  @media(max-width: 768px){
+    padding: 2rem 1.4rem;
+    flex-direction: column;
+    img{
+      margin: 2rem 0;
+    }
+  }
 `
 
 export const Container = styled.div`
@@ -36,7 +43,9 @@ export const Container = styled.div`
   p{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    width: 80%; 
+    width: 100%; 
     text-align: right;
+    padding-left: 3rem;
   }
+  
 `
