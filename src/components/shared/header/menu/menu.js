@@ -25,6 +25,7 @@ const StyledMenu = styled.nav`
   @media (max-width: 768px) {
     display: flex;
     min-width: 100%;
+    z-index: 5;
   }
 
   a {
