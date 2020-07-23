@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     --Moon-Mist:        #DDDFD3;  /* Light beige    */
     --Kangaroo:         #C1C4B6;  /* Dark beige     */
     --Battleship-Gray:  #7B8C74;  /* Light green    */
+    --Clear-Beige:      #F4F4F0;
     /* Font color */
     --Cocoa-Bean:       #481D1F;  /* Main font      */
     --White:            #FFFFFF;  /* Secondary font */
