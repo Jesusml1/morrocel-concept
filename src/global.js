@@ -22,4 +22,9 @@ export const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: border-box;
   }
+  .swiper-button-prev,
+  .swiper-button-next{
+    color: var(--Moon-Mist);
+  }
+  
 `
