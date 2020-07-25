@@ -6,6 +6,7 @@ export default function servicios() {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>Morrocel | Servicios</title>
       </Head>
       <Services />

@@ -6,6 +6,7 @@ export default function productos() {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>Morrocel | Productos</title>
       </Head>
       <Products />
