@@ -10,11 +10,13 @@ export const Wrapper = styled.div`
 
 export const Title = styled.div`
   padding: 2rem 5% 1rem;
-  color: var(--Cocoa-Bean);
-  font-family: Righteous, Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  h1{
+    color: var(--Cocoa-Bean);
+    font-family: Righteous, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+  }
   @media(max-width: 768px){
-    padding: 0 1rem;
+    padding: 1.4rem 2%;
   }
 `
 export const Body = styled.div`
@@ -22,7 +24,7 @@ export const Body = styled.div`
   h3{
     color: var(--Cocoa-Bean);
     font-family: Righteous, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 30px;
   }
   p{
     color: var(--Black);

@@ -13,7 +13,12 @@ export const Title = styled.div`
   h1{
     color: var(--Cocoa-Bean);
     font-family: Righteous, Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 34px;
+    padding: 0;
+    
+  }
+  @media(max-width: 768px){
+    padding: 1.4rem 2%;
   }
 `
 
@@ -22,7 +27,7 @@ export const Body = styled.div`
   h3{
     color: var(--Cocoa-Bean);
     font-family: Righteous, Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+    font-size: 30px;
   }
   p{
     color: var(--Black);

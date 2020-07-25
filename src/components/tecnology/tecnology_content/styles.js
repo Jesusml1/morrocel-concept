@@ -7,14 +7,16 @@ export const Wrapper = styled.div`
 `
 
 export const TitleContainer = styled.div`
+  height: 100%;
   h1{
     margin: 0;
     padding: 2rem 5%;
+    font-size: 34px;
     font-family: Righteous;
     color: var(--Cocoa-Bean);
     @media(max-width: 768px){
-      padding: 1rem 4%;
-      font-size: 2.4rem;
+      padding: 1.4rem 2%;
+      
     }
   }
 ` 
