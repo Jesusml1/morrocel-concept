@@ -139,6 +139,9 @@ export const Disaclimer = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
+  p{
+    text-align: center;
+  }
   a{
     color: white;
   }
