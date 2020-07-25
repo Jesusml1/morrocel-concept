@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { SubWrapper } from './sub_wrapper'
 import { ListIcons } from './list_icons'
 import { ListIcon } from './list_icon'
-import { EnButton } from './en_button'
+//import { EnButton } from './en_button'
 import { NavWrapper } from './nav_wrapper'
 import { Nav } from './nav'
 import { Title } from './title'
@@ -26,22 +26,19 @@ export default function Header(){
       </Cover>
       <ListIcons>
         <ListIcon>
-          <a href="/">
+          <a href="https://www.instagram.com/morrocel.ca/">
             <img src="./social_media_icons/twitter-brands.svg" width="26" height="26" alt="twitter" />
           </a>
         </ListIcon>
         <ListIcon>
-          <a href="/">
+          <a href="https://www.facebook.com/morrocel.ca.1">
             <img src="./social_media_icons/facebook-f-brands.svg" width="26" height="26" alt="facebook" />
           </a>
         </ListIcon>
         <ListIcon>
-          <a href="/">
+          <a href="https://www.instagram.com/morrocel.ca/">
             <img src="./social_media_icons/instagram-brands.svg" width="26" height="28" alt="instagram" />
           </a>
-        </ListIcon>
-        <ListIcon>
-          <EnButton href="/"><strong>EN</strong></EnButton>
         </ListIcon>
       </ListIcons>
     </SubWrapper>

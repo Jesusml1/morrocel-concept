@@ -74,26 +74,26 @@ export default function Footer(){
         <SocialMedia>
           <IconList>
             <Icon>
-              <a href="/">
+              <a href="https://www.instagram.com/morrocel.ca/">
                 <img src="./social_media_icons/twitter-brands.svg" width="26" height="26" alt="twitter" />
               </a>
             </Icon>
             <Icon>
-              <a href="/">
+              <a href="https://www.facebook.com/morrocel.ca.1">
                 <img src="./social_media_icons/facebook-f-brands.svg" width="26" height="26" alt="facebook" />
               </a>
             </Icon>
             <Icon>
-              <a href="/">
+              <a href="https://www.instagram.com/morrocel.ca/">
                 <img src="./social_media_icons/instagram-brands.svg" width="26" height="28" alt="instagram" />
               </a>
             </Icon>
           </IconList>
-          <Email>ventas@morrocel.com</Email>
+          <Email><a href="mailto:ventas@morrocel.com">ventas@morrocel.com</a></Email>
         </SocialMedia>
       </MainFooter>
       <Disaclimer>
-        <p>Este sitio web es un ejemplo y esta basado totalmente en  <a href="http://www.morrocel.com/">este sitio.</a></p>
+        <p>Esta pagina web es una muestra y esta basada totalmente en  <a href="http://www.morrocel.com/">este sitio.</a></p>
       </Disaclimer>
     </FooterWrapper>
   )

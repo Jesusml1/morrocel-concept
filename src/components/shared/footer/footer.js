@@ -131,6 +131,14 @@ export const Email = styled.div`
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   color: white;
   font-size: 1.2rem;
+  a{
+    color: white;
+    text-decoration: none;
+    :hover{
+      text-decoration: underline;
+    }
+  }
+
 `
 
 export const Disaclimer = styled.div`
