@@ -17,9 +17,10 @@ export const TitleContainer = styled.div`
   h1{
     font-family: Righteous, Arial, Helvetica, sans-serif;
     color: var(--Cocoa-Bean);
+    font-size: 34px
   }
   @media(max-width: 768px){
-    padding: 1rem;
+    padding: 1.4rem 2%;
     align-self: flex-start;
   }
   
