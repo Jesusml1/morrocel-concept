@@ -1,8 +1,15 @@
 import Products from '../components/products'
+import Head from 'next/head'
+
 
 export default function productos() {
   return (
-    <Products />
+    <>
+      <Head>
+        <title>Morrocel | Productos</title>
+      </Head>
+      <Products />
+    </>
   )
 }
 

@@ -1,8 +1,14 @@
 import About from '../components/about/'
+import Head from 'next/head'
 
 export default function quienes_somos() {
   return (
-    <About />
+    <>
+      <Head>
+        <title>Morrocel | Quienes Somos</title>
+      </Head>
+      <About />
+    </>
   )
 }
 

@@ -1,9 +1,15 @@
 import Home from '../components/home/'
+import Head from 'next/head'
 
 
 export default function Index() {
   return (
-    <Home />
+    <>
+      <Head>
+        <title>Morrocel | Inicio</title>
+      </Head>
+      <Home />
+    </>
   )
 }
 

@@ -1,8 +1,15 @@
 import Services from '../components/services/'
+import Head from 'next/head'
+
 
 export default function servicios() {
   return (
-    <Services />
+    <>
+      <Head>
+        <title>Morrocel | Servicios</title>
+      </Head>
+      <Services />
+    </>
   )
 }
 
