@@ -30,7 +30,7 @@ export default function Carousel() {
         <img src='./showcase/pepito.jpg' width='250' height='250'></img>
         </SwiperSlide>
         <SwiperSlide>
-        <img src='./showcase/pepsi.jpg' width='250' height='250'></img>
+        <img src='./showcase/maizena.jpg' width='250' height='250'></img>
         </SwiperSlide>
         <SwiperSlide>
         <img src='./showcase/arauca.jpg' width='250' height='250'></img>
