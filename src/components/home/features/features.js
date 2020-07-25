@@ -52,12 +52,13 @@ export const BottomCover = styled.div`
 
 export const ContentWrapper = styled.div`
   height: auto;
-  width: 60vw; 
+  width: 60%; 
   /* border: 2px solid black; */
   padding: 4rem 0; 
   
   display: grid;
-  grid-gap: 3rem;
+  row-gap: 3rem;
+  column-gap: 3rem;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
@@ -66,14 +67,15 @@ export const ContentWrapper = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     width: auto;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
   }
 `
 
 export const Card = styled.div`
   background-color: var(--Moon-Mist);
-  height: 325px;
-  width: 325px;
+  min-height: 325px;
+  height: auto;
+  width: auto;
   /* padding: 1rem; */
   border-radius: 20px;
   display: flex;
@@ -98,7 +100,7 @@ export const CartTitle = styled.div`
 `
 export const CartBody = styled.p`
   font-family: Montserrat, Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--Black);
   margin: 0.5rem 2rem;
   text-align: justify;

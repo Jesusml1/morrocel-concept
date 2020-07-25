@@ -1,12 +1,12 @@
 import Header from '../shared/header/'
 import Footer from '../shared/footer'
-
+import ServicesContent from './services_content'
 
 export default function Services(){
   return (
     <div>
       <Header />
-      Services page
+      <ServicesContent />
       <Footer />
     </div>
   )

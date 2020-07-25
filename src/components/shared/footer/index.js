@@ -9,7 +9,8 @@ import { SubFooter,
          SocialMedia,
          IconList,
          Icon,
-         Email, } from './footer'
+         Email,
+         Disaclimer, } from './footer'
 
 
 
@@ -91,6 +92,9 @@ export default function Footer(){
           <Email>ventas@morrocel.com</Email>
         </SocialMedia>
       </MainFooter>
+      <Disaclimer>
+        <p>Este sitio web es un ejemplo y esta basado totalmente en  <a href="http://www.morrocel.com/">este sitio.</a></p>
+      </Disaclimer>
     </FooterWrapper>
   )
 }

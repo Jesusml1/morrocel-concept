@@ -133,3 +133,13 @@ export const Email = styled.div`
   font-size: 1.2rem;
 `
 
+export const Disaclimer = styled.div`
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  a{
+    color: white;
+  }
+`

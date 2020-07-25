@@ -26,6 +26,7 @@ const StyledMenu = styled.nav`
     display: flex;
     min-width: 100%;
     z-index: 5;
+    overflow: hidden;
   }
 
   a {
